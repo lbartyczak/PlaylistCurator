@@ -1,0 +1,119 @@
+.page {
+    background-color: #061138;
+    padding: 100px;
+    height: 100%;
+    color: white;
+}
+
+.home-page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: xx-large;
+    word-spacing: 10px;
+}
+
+.input1 {
+    font-size: medium;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 40px;
+    padding: 2px;
+}
+
+.input2 {
+    font-size: medium;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 15px;
+    padding: 2px;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    font-family: Georgia;
+    margin-right: auto;
+    font-size: large;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: deeppink;
+    color: white;
+    margin-top: 40px;
+    position: center;
+}
+
+.playlist-page {
+    display: grid;
+    grid-template-columns: 200px 700px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.info-bar {
+    border-style: solid;
+    border-color: yellow;
+    border-width: 1px;
+    padding: 10px 10px 0px 10px;
+    height: 500px;
+}
+
+.tab-bar {
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    height: 500px;
+    color: white;
+    padding: 0px 10px 10px 10px;
+}
+
+.tab-label {
+    display: inline-block;
+    border-right: 0.125rem solid #16a085;
+    border-left: 0.125rem solid #16a085;
+    margin: auto;
+    cursor: pointer;
+    transition: all 0.25s;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.tab-label-b {
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    transition: all 0.35s;
+    padding-left: 120px;
+    padding-right: 120px;
+    color: lightslategray;
+}
+
+.count {
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.tab-content {
+    border-style: solid;
+    border-color: salmon;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.tab-child {
+    height: 450px;
+    scrollbar-base-color: blueviolet;
+}
