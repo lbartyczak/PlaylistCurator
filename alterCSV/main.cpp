@@ -8,7 +8,7 @@
 
 void getData(Graph &data)
 {
-	std::string fileName = "src/SpotifyFeatures.csv";
+	std::string fileName = "Dataset/SpotifyFeatures.csv";
 	std::fstream file(fileName, std::ios::in);
 	string line, word;
 	vector<string> row;
